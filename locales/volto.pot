@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2025-01-07T12:25:47.756Z\n"
+"POT-Creation-Date: 2025-01-07T12:46:21.678Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -14,18 +14,23 @@ msgstr ""
 "Domain: volto\n"
 
 #. Default: "Autoplay"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "autoplay"
 msgstr ""
 
 #. Default: "Autoplay delay"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "autoplaySpeed"
 msgstr ""
 
 #. Default: "Delay between each auto scroll (in milliseconds)"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "autoplaySpeedDescription"
+msgstr ""
+
+#. Default: "Cards grid"
+#: messages
+msgid "cardGrid"
 msgstr ""
 
 #. Default: "carousel"
@@ -34,12 +39,12 @@ msgid "carouselDefaultOption"
 msgstr ""
 
 #. Default: "Carousel Settings"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "carouselSettings"
 msgstr ""
 
 #. Default: "CSS height"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "cssHeight"
 msgstr ""
 
@@ -54,7 +59,7 @@ msgid "defaultTheme"
 msgstr ""
 
 #. Default: "Fade"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "fade"
 msgstr ""
 
@@ -69,12 +74,12 @@ msgid "gridSizeTitle"
 msgstr ""
 
 #. Default: "Hide arrows"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "hideArrows"
 msgstr ""
 
 #. Default: "Hide navigation dots"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "hideNavigationDots"
 msgstr ""
 
@@ -164,12 +169,12 @@ msgid "imageCardsSlideCountTitle"
 msgstr ""
 
 #. Default: "Infinite"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "infinite"
 msgstr ""
 
 #. Default: "Infinitely wrap around contents"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "infiniteDescription"
 msgstr ""
 
@@ -179,12 +184,12 @@ msgid "oneOption"
 msgstr ""
 
 #. Default: "Pause on hover"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "pauseOnHover"
 msgstr ""
 
 #. Default: "Prevents autoplay while hovering on track"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "pauseOnHoverDescription"
 msgstr ""
 

@@ -77,6 +77,10 @@ const messages = defineMessages({
     id: 'imageCardsSlideCountDescription',
     defaultMessage: 'How many slides to show in one frame',
   },
+  cardGrid: {
+    id: 'cardGrid',
+    defaultMessage: 'Cards grid',
+  },
   gridSizeTitle: {
     id: 'gridSizeTitle',
     defaultMessage: 'Grid size',

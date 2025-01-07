@@ -12,19 +12,24 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. Default: "Autoplay"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "autoplay"
 msgstr ""
 
 #. Default: "Autoplay delay"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "autoplaySpeed"
 msgstr "Autoplay-Verzögerung"
 
 #. Default: "Delay between each auto scroll (in milliseconds)"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "autoplaySpeedDescription"
 msgstr "Verzögerung zwischen jedem automatischen Bildlauf (in Millisekunden)"
+
+#. Default: "Cards grid"
+#: messages
+msgid "cardGrid"
+msgstr "Kartenraster"
 
 #. Default: "carousel"
 #: messages
@@ -32,12 +37,12 @@ msgid "carouselDefaultOption"
 msgstr ""
 
 #. Default: "Carousel Settings"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "carouselSettings"
 msgstr "Carousel Einstellungen"
 
 #. Default: "CSS height"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "cssHeight"
 msgstr "CSS Höhe"
 
@@ -52,7 +57,7 @@ msgid "defaultTheme"
 msgstr ""
 
 #. Default: "Fade"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "fade"
 msgstr "Übergang"
 
@@ -67,12 +72,12 @@ msgid "gridSizeTitle"
 msgstr "Rastergröße"
 
 #. Default: "Hide arrows"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "hideArrows"
 msgstr "Pfeile ausblenden"
 
 #. Default: "Hide navigation dots"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "hideNavigationDots"
 msgstr "Navigationspunkte ausblenden"
 
@@ -162,12 +167,12 @@ msgid "imageCardsSlideCountTitle"
 msgstr "Zu zeigende Bilder"
 
 #. Default: "Infinite"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "infinite"
 msgstr "Unendlich"
 
 #. Default: "Infinitely wrap around contents"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "infiniteDescription"
 msgstr "Unbegrenzt umlaufende Inhalte"
 
@@ -177,12 +182,12 @@ msgid "oneOption"
 msgstr "Eins"
 
 #. Default: "Pause on hover"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "pauseOnHover"
 msgstr "Pause beim Hovern"
 
 #. Default: "Prevents autoplay while hovering on track"
-#: ImageCards/CommonAssets/schema
+#: messages
 msgid "pauseOnHoverDescription"
 msgstr "Verhindert die automatische Wiedergabe beim hovern"
 

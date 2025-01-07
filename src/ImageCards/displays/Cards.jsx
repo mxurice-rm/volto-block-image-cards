@@ -145,7 +145,7 @@ Cards.schemaExtender = (schema, data, intl) => {
       ...schema.fieldsets,
       {
         id: 'cards_grid',
-        title: intl.formatMessage(messages.gridSizeTitle),
+        title: intl.formatMessage(messages.cardGrid),
         fields: ['gridSize', 'theme'],
       },
     ],
