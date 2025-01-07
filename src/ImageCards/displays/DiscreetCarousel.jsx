@@ -9,6 +9,8 @@ import { CommonCarouselschemaExtender } from '@eeacms/volto-block-image-cards/Im
 import 'slick-carousel/slick/slick.css';
 import '@eeacms/volto-block-image-cards/ImageCards/css/discreetcarousel.less';
 
+import messages from '@eeacms/volto-block-image-cards/messages';
+
 const Slider = loadable(() => import('react-slick'));
 
 const Card = ({ card = {}, height, image_scale, mode = 'view' }) => {
@@ -43,7 +45,7 @@ const Card = ({ card = {}, height, image_scale, mode = 'view' }) => {
 };
 
 const DiscreetCarousel = (props) => {
-  const { data = {}, editable = false } = props;
+  const { data = {}, editable = false, intl } = props;
   const [isClient, setIsClient] = React.useState(false);
 
   React.useEffect(() => setIsClient(true), []);
@@ -104,7 +106,7 @@ const DiscreetCarousel = (props) => {
   };
 
   if (!cards?.length && editable) {
-    return <Message>No image cards</Message>;
+    return <Message>{intl.formatMessage(messages.imageCardsNull)}</Message>;
   }
 
   return cards?.length ? (
@@ -139,11 +141,10 @@ export default DiscreetCarousel;
 
 DiscreetCarousel.schemaExtender = (schema, data, intl) => {
   const Common = CommonCarouselschemaExtender({ data, schema, intl });
-
   Common.properties.itemsPerRow = {
     type: 'number',
-    title: 'Slides to show',
-    description: 'How many slides to show in one frame',
+    title: intl.formatMessage(messages.slideCountTitle),
+    description: intl.formatMessage(messages.slideCountDescription),
     defaultValue: 4,
   };
 
