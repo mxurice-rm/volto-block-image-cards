@@ -11,6 +11,31 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+#. Default: "Cards grid"
+#: messages
+msgid "Cards grid"
+msgstr "Kartenraster"
+
+#. Default: "Discreet Carousel"
+#: messages
+msgid "Discreet Carousel"
+msgstr "Diskretes Karussell"
+
+#. Default: "Image Cards"
+#: messages
+msgid "Image Cards"
+msgstr "Bildkarten"
+
+#. Default: "Round Tile"
+#: messages
+msgid "Round Tile"
+msgstr "Runde Kacheln"
+
+#. Default: "Splashy Carousel"
+#: messages
+msgid "Splashy Carousel"
+msgstr "Splashy Karussell"
+
 #. Default: "Autoplay"
 #: messages
 msgid "autoplay"
@@ -25,11 +50,6 @@ msgstr "Autoplay-Verzögerung"
 #: messages
 msgid "autoplaySpeedDescription"
 msgstr "Verzögerung zwischen jedem automatischen Bildlauf (in Millisekunden)"
-
-#. Default: "Cards grid"
-#: messages
-msgid "cardGrid"
-msgstr "Kartenraster"
 
 #. Default: "carousel"
 #: messages
@@ -125,11 +145,6 @@ msgstr "Eine Liste von Bildern als Karussell-Elemente hinzufügen"
 #: messages
 msgid "imageCardsAlignment"
 msgstr "Ausrichtung"
-
-#. Default: "Image Cards"
-#: messages
-msgid "imageCardsBlockTitle"
-msgstr "Bildkarten"
 
 #. Default: "Image Card"
 #: messages

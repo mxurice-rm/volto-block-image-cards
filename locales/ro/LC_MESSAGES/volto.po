@@ -11,6 +11,31 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+#. Default: "Cards grid"
+#: messages
+msgid "Cards grid"
+msgstr ""
+
+#. Default: "Discreet Carousel"
+#: messages
+msgid "Discreet Carousel"
+msgstr ""
+
+#. Default: "Image Cards"
+#: messages
+msgid "Image Cards"
+msgstr ""
+
+#. Default: "Round Tile"
+#: messages
+msgid "Round Tile"
+msgstr ""
+
+#. Default: "Splashy Carousel"
+#: messages
+msgid "Splashy Carousel"
+msgstr ""
+
 #. Default: "Autoplay"
 #: messages
 msgid "autoplay"
@@ -24,11 +49,6 @@ msgstr ""
 #. Default: "Delay between each auto scroll (in milliseconds)"
 #: messages
 msgid "autoplaySpeedDescription"
-msgstr ""
-
-#. Default: "Cards grid"
-#: messages
-msgid "cardGrid"
 msgstr ""
 
 #. Default: "carousel"
@@ -124,11 +144,6 @@ msgstr ""
 #. Default: "Alignment"
 #: messages
 msgid "imageCardsAlignment"
-msgstr ""
-
-#. Default: "Image Cards"
-#: messages
-msgid "imageCardsBlockTitle"
 msgstr ""
 
 #. Default: "Image Card"
