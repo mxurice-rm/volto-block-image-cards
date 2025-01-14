@@ -45,18 +45,14 @@ const ImageCards = (props) => {
   const intl = useIntl();
   const display_types_obj =
     config.blocks.blocksConfig.imagecards.blockRenderers;
-  const display_types = Object.keys(display_types_obj).map((template) => [
-    template,
-    display_types_obj[template].title || template,
-  ]);
+  const display_types = Object.keys(display_types_obj).map((template) => {
+    const titleId = display_types_obj[template]?.title;
+    return [template, titleId ? intl.formatMessage({ id: titleId }) : template];
+  });
   const selected_renderer = props && props.data.display;
   const schema =
     (selected_renderer && display_types_obj[selected_renderer]?.schema) ||
     ImageCard;
-
-  config.blocks.blocksConfig.imagecards.title = intl.formatMessage(
-    messages.imageCardsTitle,
-  );
 
   return {
     title: intl.formatMessage(messages.imageCardsTitle),

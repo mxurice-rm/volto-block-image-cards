@@ -30,7 +30,7 @@ const messages = defineMessages({
     defaultMessage: 'Copyright',
   },
   imageCardsTitle: {
-    id: 'imageCardsBlockTitle',
+    id: 'Image Cards',
     defaultMessage: 'Image Cards',
   },
   imageCardsCardTitle: {
@@ -78,7 +78,7 @@ const messages = defineMessages({
     defaultMessage: 'How many slides to show in one frame',
   },
   cardGrid: {
-    id: 'cardGrid',
+    id: 'Cards grid',
     defaultMessage: 'Cards grid',
   },
   gridSizeTitle: {
@@ -168,6 +168,18 @@ const messages = defineMessages({
   heightTitle: {
     id: 'cssHeight',
     defaultMessage: 'CSS height',
+  },
+  roundTile: {
+    id: 'Round Tile',
+    defaultMessage: 'Round Tile',
+  },
+  splashyCarousel: {
+    id: 'Splashy Carousel',
+    defaultMessage: 'Splashy Carousel',
+  },
+  discreetCarousel: {
+    id: 'Discreet Carousel',
+    defaultMessage: 'Discreet Carousel',
   },
 });
 
