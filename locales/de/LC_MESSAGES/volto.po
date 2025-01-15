@@ -54,7 +54,7 @@ msgstr "Verzögerung zwischen jedem automatischen Bildlauf (in Millisekunden)"
 #. Default: "carousel"
 #: messages
 msgid "carouselDefaultOption"
-msgstr ""
+msgstr "Karussell"
 
 #. Default: "Carousel Settings"
 #: messages
@@ -74,7 +74,7 @@ msgstr "Standard"
 #. Default: "Default"
 #: messages
 msgid "defaultTheme"
-msgstr ""
+msgstr "Standard"
 
 #. Default: "Fade"
 #: messages
